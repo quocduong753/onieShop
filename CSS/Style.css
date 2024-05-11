@@ -484,15 +484,16 @@ body{
 
 .nav__list-item{
     flex: 1;
-    border-right: 1px solid var(--white-color);
+    border-left: 1px solid var(--white-color);
 }
+
 
 .nav__list-item:hover{
     background-color: #f467b08c;
 }
 
-.nav__list li:first-child{
-    border-left: 1px solid var(--white-color);
+.nav__list li:last-child{
+    border-right: 1px solid var(--white-color);
 }
 
 .nav__list-item a{

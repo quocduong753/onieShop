@@ -110,7 +110,7 @@
     .nav__list{
         display: block;
         background-color: #fff;
-        width: 40%;
+        width: 50%;
         height: 100%;
         text-align: left;
         padding: 14px;
@@ -127,9 +127,27 @@
     .close-nav-header{
         display: block;
     }
+    .nav__list-item:hover{
+        background-color: #fff;
+    }
 }
 
 @media screen and (max-width: 767px) {
+    .header-with-search__section{
+        padding: 10px;
+        padding-left: 0;
+    }
+
+    .header__cart{
+        width: 48px;
+    }
+    .header__cart i{
+        font-size: 28px;
+    }
+
+    .header__search-btn{
+        width: 50px;
+    }
     #banner1{
         height: 60%;
     }
@@ -177,6 +195,10 @@
         margin-top: 35px;
     }
     .category-product{
+        width: 70%;
+    }
+
+    .nav__list{
         width: 70%;
     }
 }

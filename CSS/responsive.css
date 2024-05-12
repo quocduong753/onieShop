@@ -137,9 +137,12 @@
         padding: 10px;
         padding-left: 0;
     }
+
+
     body{
         width: 97%;
     }
+
 
     .header__cart{
         width: 48px;
@@ -152,7 +155,9 @@
     .header__search-btn{
         width: 50px;
     }
-
+    .banner{
+        padding: 0;
+    }
     #banner1{
         height: 60%;
     }

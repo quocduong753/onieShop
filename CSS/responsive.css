@@ -137,7 +137,7 @@
         padding: 10px;
         padding-left: 0;
     }
-    .body{
+    body{
         width: 97%;
     }
 
@@ -156,7 +156,7 @@
     #banner1{
         height: 60%;
     }
-    
+
     #banner2{
         height: 40%;
         display: flex;

@@ -82,7 +82,7 @@ body{
     font-size: 16px;
     font-weight: 300;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .header {
@@ -506,11 +506,13 @@ body{
 
 .banners{ 
     height: 55vh;
+    overflow: hidden;
 }
 
 .banner{
     padding-left: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 #banner1{

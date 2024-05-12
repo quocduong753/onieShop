@@ -790,6 +790,7 @@ body{
     color: var(--white-color);
     position: relative;
     z-index: 55;
+    width: 100vw;
 }
 
 .footer-body{

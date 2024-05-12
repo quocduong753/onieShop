@@ -50,8 +50,17 @@
         top: 8px;
         cursor: pointer;
         display: block;
-
+        
     }
+
+    body{
+        padding-top: 110px;
+    }
+
+    .header{
+        height: 110px;
+    }
+
     .close-category-btn i{
         padding: 6px;
         font-size: 26px;
@@ -130,17 +139,13 @@
     .nav__list-item:hover{
         background-color: #fff;
     }
+    
 }
 
 @media screen and (max-width: 767px) {
     .header-with-search__section{
         padding: 10px;
         padding-left: 0;
-    }
-
-
-    body{
-        width: 96%;
     }
 
 

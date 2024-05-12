@@ -76,19 +76,22 @@ a{
     background-color: var(--primary-color);
   }
 
+html{
+    overflow-x: hidden;
+}
 
 body{
     font-family: var(--body-font);
     font-size: 16px;
-    font-weight: 300;
     width: 100%;
-    overflow-x: hidden;
+    padding-top: 152px;
 }
 
 .header {
     min-height: 34px;
+    height: 152px;
     background-color: var(--primary-color);
-    position: sticky;
+    position: fixed;
     width: 100vw;
     z-index: 99;
     top: 0;
@@ -507,7 +510,6 @@ body{
 
 .banners{ 
     height: 55vh;
-    overflow: hidden;
 }
 
 .banner{
@@ -681,7 +683,6 @@ body{
 }
 
 .new-items-List{
-    width: 1240px;
     max-width: 100%;
     overflow: auto;
     margin: 20px auto;
@@ -790,7 +791,6 @@ body{
     color: var(--white-color);
     position: relative;
     z-index: 55;
-    width: 100vw;
 }
 
 .footer-body{

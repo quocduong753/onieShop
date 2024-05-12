@@ -140,9 +140,11 @@
     .body{
         width: 97%;
     }
+
     .header__cart{
         width: 48px;
     }
+
     .header__cart i{
         font-size: 28px;
     }
@@ -150,9 +152,11 @@
     .header__search-btn{
         width: 50px;
     }
+
     #banner1{
         height: 60%;
     }
+    
     #banner2{
         height: 40%;
         display: flex;

@@ -506,6 +506,7 @@ body{
 
 .banners{ 
     height: 55vh;
+    width: 100vw;
     overflow: hidden;
 }
 

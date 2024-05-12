@@ -137,7 +137,9 @@
         padding: 10px;
         padding-left: 0;
     }
-
+    .body{
+        width: 97%;
+    }
     .header__cart{
         width: 48px;
     }

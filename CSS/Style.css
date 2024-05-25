@@ -61,21 +61,6 @@ a{
   background-color: var(--primary-color);
 }
 
-.btn-dark {
-    background-color: var(--black-color);
-  }
-  .btn-dark:hover {
-    background-color: var(--primary-color);
-  }
-  
-  .btn-light {
-    background-color: var(--light-color);
-  }
-  .btn-light:hover {
-    color: #fff;
-    background-color: var(--primary-color);
-  }
-
 html{
     overflow-x: hidden;
 }
@@ -86,6 +71,10 @@ body{
     width: 100%;
     padding-top: 152px;
     overflow-x: hidden;
+}
+
+.active-tablet{
+    display: none;
 }
 
 .header {

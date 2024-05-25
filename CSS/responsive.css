@@ -4,6 +4,10 @@
     .hiden_tablet_mobile{
         display: none;
     }
+    
+    .active-tablet{
+        display: block;
+    }
 
     .footer-network-wrap{
         flex: 1;
@@ -19,6 +23,7 @@
     .btn-filter{
         display: block;
     }
+
 
     .category-product-wrap{
         position: fixed;

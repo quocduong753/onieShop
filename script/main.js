@@ -27,7 +27,6 @@ closeNavHeader.onclick=()=>{
     navheader.classList.add("translate-l");
 }
 
-console.log(document.querySelector(".seconds").innerHTML);
 
 const countdown = ()=>{
     const now = new Date().getTime();

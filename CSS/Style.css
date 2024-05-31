@@ -501,6 +501,39 @@ body{
     line-height: 40px;
 }
 
+/* css login-signin */
+.modal {
+    --bs-modal-zindex: 99999;
+    background-color: #55555597;
+  }
+  .modal-dialog {
+    max-width: 800px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .modal-content button {
+    color: var(--primary-color);
+  }
+
+  .modal-content .nav-link:not(.active):hover{
+    color: var(--primary-color);
+  }
+  .form-group label {
+    font-weight: 700;
+  }
+
+    .label-body a{
+        color: var(--primary-color);
+    }
+
+    .btn-login:hover, .btn-register:hover{
+        border-color: var(--primary-color);
+    }
+/* css banners */
 .banners{ 
     height: 55vh;
 }
